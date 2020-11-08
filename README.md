@@ -1,15 +1,15 @@
 ## How to call functions
 
 ### dogleg.m
-To run this function call dogleg(xn,fx,gx,H,H_,delta)
-[although is called as part of tr_dogleg]
-where
-	xn : initial point
-	fx : actual function
-	gx : gradient function
-	H  : Hessian matrix
-	H_ : inverse Hessian matrix
-     delta : radius of the trust region
+To run this function call dogleg(xn,fx,gx,H,H_,delta)\
+[although is called as part of tr_dogleg]\
+where\
+- xn : initial point
+- fx : actual function
+- gx : gradient function
+- H  : Hessian matrix
+- H_ : inverse Hessian matrix
+- delta : radius of the trust region
 
 ### sr1.m
 To run this function call sr1(H,H_,d,y,eta)
