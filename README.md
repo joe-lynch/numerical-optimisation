@@ -20,7 +20,7 @@ where
 	d  : step between two points
 	y  : difference between gradient values
 	eta : small value greater than zero
-<hr><\hr>
+
 ### tr_dogleg.m
 To run this function call tr_dogleg(f,df,H,H_,xn,delta,delmax,rho_ac,tol)
 where
