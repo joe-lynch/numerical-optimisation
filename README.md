@@ -1,6 +1,5 @@
 HOW TO CALL FUNCTIONS
 ==========================================================================
---------------------------------------------------------------------------
 - dogleg.m
 To run this function call dogleg(xn,fx,gx,H,H_,delta)
 [although is called as part of tr_dogleg]
@@ -11,7 +10,7 @@ where
 	H  : Hessian matrix
 	H_ : inverse Hessian matrix
      delta : radius of the trust region
---------------------------------------------------------------------------
+
 - sr1.m
 To run this function call sr1(H,H_,d,y,eta)
 [although is called as part of tr_dogleg]
@@ -21,7 +20,7 @@ where
 	d  : step between two points
 	y  : difference between gradient values
 	eta : small value greater than zero
---------------------------------------------------------------------------
+<hr><\hr>
 - tr_dogleg.m
 To run this function call tr_dogleg(f,df,H,H_,xn,delta,delmax,rho_ac,tol)
 where
