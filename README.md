@@ -1,5 +1,5 @@
-HOW TO CALL FUNCTIONS
-==========================================================================
+## How to call functions
+
 - dogleg.m
 To run this function call dogleg(xn,fx,gx,H,H_,delta)
 [although is called as part of tr_dogleg]
