@@ -24,7 +24,7 @@ where
 - eta : small value greater than zero
 
 #### tr_dogleg.m
-To run this function call tr_dogleg(f,df,H,H_,xn,delta,delmax,rho_ac,tol)
+To run this function call tr_dogleg(f, df, H, H_, xn, delta, delmax, rho_ac, tol)
 
 where
 - f  : actual function
