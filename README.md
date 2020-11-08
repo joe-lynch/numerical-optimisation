@@ -1,4 +1,4 @@
-## How to call functions
+## File Descriptions
 
 #### dogleg.m
 To run this function call dogleg(xn, fx, gx, H, H_, delta)\
